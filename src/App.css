@@ -1,0 +1,24 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+#root{
+  margin-top: 0px;
+  height: 115vh;
+  text-align: center;
+  background-size: 100% 100%;
+  margin-top: -15%; 
+ 
+ 
+}
+
+h1{
+  padding-top: 26%;
+  margin-bottom: 0%;
+  color: white;
+  font-size: 155px;
+}
+
+h2{
+  /*padding-top: -10%;*/
+  color: white;
+  font-size: 50px;
+}
