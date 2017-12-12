@@ -1,9 +1,11 @@
+// Aanroepen van ReactJS
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+// Hier wordt naam gevraagd en gegenereerd
 var person = prompt("Please enter your name", "...");
 
 // var UserGreeting;	
@@ -15,6 +17,7 @@ let imgUrlochtend = 'https://static.pexels.com/photos/297954/pexels-photo-297954
 let imgUrlmiddag = 'https://static.pexels.com/photos/697244/pexels-photo-697244.jpeg';
 let imgUrlavond = 'https://static.pexels.com/photos/697244/pexels-photo-697244.jpeg';
 
+// Hier wordt achtergrondafbeelding aangepast op basis van tijdstip
 let message;
 
 if (time < 12) {
@@ -32,9 +35,7 @@ else {
   document.getElementById("root").style.backgroundImage = "url("+ imgUrlavond +")";
 };
 
-
-
-
+// Functie om live de tijd te zien
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -68,6 +69,7 @@ class Clock extends React.Component {
   }
 };
 
+// Hier wordt alles door naar het HTML element root gestuurd
 ReactDOM.render(
   <Clock />, document.getElementById('root')
 );
