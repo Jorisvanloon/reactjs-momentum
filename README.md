@@ -9,22 +9,26 @@ Google Chrome heeft in zijn extensies de mogelijkheid om een momentum scherm in 
 Ik heb dit proberen na te bouwen met behulp van ReactJS. In mijn variant houdt de applicatie rekening met het tijdstip (ochtend, middag of avond) en welke naam je ingeeft. 
 
 
-### Installation via Git
+### Installation
 
-Follow the instruction below if you want to install sw_screensaver using Git.
+Volg de instructies om het momentumscherm op je localhost te installeren
 
-1.) Clone the git repository to the desired location using:
+1.) Installeer node + reactjs via terminal:
 
-    git clone https://github.com/reactjs-momentum.git
-    
-    
-### Installation via Download link
+```
+npm install -g create-react-app
+create-react-app my-app
 
-1. <a href="https://github.com/Jorisvanloon/sw_screensaver/blob/master/jquery.screen.js">Download here</a>
-2. Upload it to SW 
-3. Add your JS-library to theme.php
+cd my-app
+npm start
+```
+>my app kun je vervangen door eigen-app o.i.d.
 
-### That's it, you're done!
+2.) Download zip van GIT en plaats hem in je eigen_app folder
+
+3.) Geniet van het momentum scherm!
+   
+####<b> That's it, you're done!</b>
 
 
 
