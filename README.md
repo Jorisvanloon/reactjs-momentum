@@ -28,7 +28,7 @@ npm start
 
 3.) Geniet van het momentum scherm!
    
-####<b> That's it, you're done!</b>
+#### <b> That's it, you're done!</b>
 
 
 
